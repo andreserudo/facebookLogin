@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;   
   font-size: 12px;
 }
 
@@ -98,3 +98,30 @@ header .login #forgotPassword{
 header .login #forgotPassword:hover {
   text-decoration: underline;
 }
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+.content .left-content{
+  width: 600px;
+  margin-top: 40px;
+}
+
+.content .left-content p {
+  
+  color: rgb(17, 59, 97);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.content .left-content img {
+ width: 100%;
+}
+
+.content .right-content{
+  width: 400px;
+}
+ 
