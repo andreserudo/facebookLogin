@@ -11,6 +11,7 @@ header{
   justify-content: space-between;
 
   background-color: rgb(67, 96, 156);
+  color: rgb(255,255,255);
 }
 
 header .login{
@@ -23,26 +24,43 @@ header .login{
   ". forgotPassword .";
 }
 
-header #labelName{
+header .login input{
+  width: 147px;
+  height: 23px;
+}
+
+header .login #labelName{
   grid-area: labelName;
 }
 
-header #labelPassword{
+header .login #labelPassword{
   grid-area: labelPassword;
 }
 
-header #loginName{
+header .login #loginName{
   grid-area: loginName;
 }
 
-header #loginPassword{
+header .login #loginPassword{
   grid-area: loginPassword;
 }
 
-header #btnLogin{
+header .login #btnLogin{
   grid-area: btnLogin;
+
+  width: 48px;
+  height: 23px;
+
+  color: rgb(255,255,255);
+  font-weight: bold;
+  font-size: 12px;
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(55, 86, 146);
+  border-radius: 3px;
+
+  cursor: pointer;
 }
 
-header #forgotPassword{
+header .login #forgotPassword{
   grid-area: forgotPassword;
 }
