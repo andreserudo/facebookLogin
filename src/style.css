@@ -123,5 +123,33 @@ header .login #forgotPassword:hover {
 
 .content .right-content{
   width: 400px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
 }
- 
+
+.content .right-content h1{
+  font-size: 38px;
+  color: rgb(51, 51, 51);
+}
+
+.content .right-content p{
+  margin-top: 10px;
+  margin-bottom: 20px;  
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content .right-content #businessRegister {
+  color: rgb(112, 113, 114);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.content .right-content #businessRegister a {  
+  text-decoration: none;
+  color: rgb(86, 112, 166);
+  font-weight: bold;
+}
