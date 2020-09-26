@@ -37,6 +37,8 @@ header .login label {
 header .login input{
   width: 147px;
   height: 23px;
+
+  padding-left: 2px;
 }
 
 header .login #labelName{
@@ -51,10 +53,17 @@ header .login #labelPassword{
 
 header .login #loginName{
   grid-area: loginName;
+  align-self: center;
 }
 
 header .login #loginPassword{
   grid-area: loginPassword;
+  align-self: center;
+}
+
+header .login #loginName:focus,
+header .login #loginPassword:focus{
+  outline: none;
 }
 
 header .login #btnLogin{
@@ -73,7 +82,19 @@ header .login #btnLogin{
   cursor: pointer;
 }
 
+header .login #btnLogin:hover{
+  background-color: rgb(67, 96, 156);
+}
+
 header .login #forgotPassword{
   grid-area: forgotPassword;
   align-self: center;
+
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(127, 153, 196);
+}
+
+header .login #forgotPassword:hover {
+  text-decoration: underline;
 }
