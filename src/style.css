@@ -142,6 +142,40 @@ header .login #forgotPassword:hover {
   font-size: 16px;
 }
 
+.content .right-content form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.content .right-content form input{
+  height: 38px;
+
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 223, 233);
+
+  margin-bottom: 10px;
+  padding-left: 10px;    
+}
+
+.content .right-content form input:focus{
+  outline: none;
+}
+
+
+.content .right-content form .name{
+  display: flex;
+}
+
+.content .right-content form .name input{  
+  width: 193px;
+}
+
+.content .right-content form .name #surname{
+  margin-left: 14px;
+}
+
 .content .right-content #businessRegister {
   color: rgb(112, 113, 114);
   font-weight: bold;
