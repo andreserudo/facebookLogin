@@ -199,6 +199,27 @@ header .login #forgotPassword:hover {
   text-decoration: none;
 }
 
+.content .right-content form #btnRegister{
+  height: 38px;
+  width: 194px;
+
+  background-color: rgb(96, 158, 77);
+  border: 1px solid;
+  border-radius: 5px;
+  border-top-color: rgb(95, 149, 76);
+  border-left-color: rgb(144, 184, 138);
+  border-right-color: rgb(80, 138, 58);
+  border-bottom-color: rgb(154, 171, 157);
+
+  font-size: 19px;
+  color: rgb(255,255,255);
+  cursor: pointer;
+}
+
+.content .right-content form #btnRegister:hover{
+  background-color: rgba(96, 158, 77, 0.8);
+}
+
 .content .right-content #businessRegister {
   color: rgb(112, 113, 114);
   font-weight: bold;
