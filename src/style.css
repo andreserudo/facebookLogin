@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgb(67, 96, 156);
+}
+
+header .login{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: 
+  "labelName labelPassword ."
+  "loginName loginPassword btnLogin"
+  ". forgotPassword .";
+}
+
+header #labelName{
+  grid-area: labelName;
+}
+
+header #labelPassword{
+  grid-area: labelPassword;
+}
+
+header #loginName{
+  grid-area: loginName;
+}
+
+header #loginPassword{
+  grid-area: loginPassword;
+}
+
+header #btnLogin{
+  grid-area: btnLogin;
+}
+
+header #forgotPassword{
+  grid-area: forgotPassword;
+}
