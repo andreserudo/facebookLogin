@@ -102,6 +102,9 @@ header .login #forgotPassword:hover {
 .content{
   display: flex;
   justify-content: center;
+
+  background: rgb(235,237,240);
+  background: linear-gradient(0deg, rgba(235,237,240,1) 66%, rgba(255,255,255,1) 100%);  
 }
 
 .content .left-content{
@@ -224,10 +227,84 @@ header .login #forgotPassword:hover {
   color: rgb(112, 113, 114);
   font-weight: bold;
   font-size: 12px;
+
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .content .right-content #businessRegister a {  
   text-decoration: none;
   color: rgb(86, 112, 166);
   font-weight: bold;
+}
+
+.map-site{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;  
+  align-items: flex-start;
+
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+
+}
+
+.map-site a {
+  text-decoration: none;
+  color: rgb(67, 96, 156);
+}
+
+.map-site .language-active{
+  color: rgb(112, 113, 114);
+  cursor: default;
+}
+
+.map-site ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.map-site ul li{
+  list-style-type: none;
+  margin-top: 5px;
+}
+
+.map-site ul li:first-child{
+  margin-right: 20px;
+}
+
+.map-site ul li + li{
+  margin-right: 10px;
+}
+
+.map-site .languages{
+  display: flex;
+  justify-items: center;  
+
+  margin-top: 5px;
+}
+
+.map-site hr {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+.map-site .map{
+  display: flex;
+  justify-items: center;
+  
+  
+}
+
+.map-site p {
+  margin-top: 25px;
+  color: rgb(112, 113, 114);
+}
+
+footer{
+  text-align: center;
+
+  margin-top: 50px;
 }
