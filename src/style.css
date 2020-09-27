@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;   
   font-size: 12px;
 }
 
@@ -97,4 +97,137 @@ header .login #forgotPassword{
 
 header .login #forgotPassword:hover {
   text-decoration: underline;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+.content .left-content{
+  width: 600px;
+  margin-top: 40px;
+}
+
+.content .left-content p {
+  
+  color: rgb(17, 59, 97);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.content .left-content img {
+ width: 100%;
+}
+
+.content .right-content{
+  width: 400px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content .right-content h1{
+  font-size: 38px;
+  color: rgb(51, 51, 51);
+}
+
+.content .right-content p{
+  margin-top: 10px;
+  margin-bottom: 20px;  
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content .right-content form {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.content .right-content form input{
+  height: 38px;
+
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 223, 233);
+
+  margin-bottom: 10px;
+  padding-left: 10px;    
+}
+
+.content .right-content form input:focus{
+  outline: none;
+}
+
+
+.content .right-content form .name{
+  display: flex;
+}
+
+.content .right-content form .name input{  
+  width: 193px;
+}
+
+.content .right-content form .name #surname{
+  margin-left: 14px;
+}
+
+.content .right-content form #labelBirth{
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(153, 157, 165);
+
+  margin: 10px 0;
+}
+
+.content .right-content form select {
+  height: 28px;
+}
+
+.content .right-content form #terms{
+  font-size: 10px;
+  line-height: 14px;
+  color: rgb(134, 135, 136);
+}
+
+.content .right-content form a {
+  color: rgb(118, 141, 185);
+  text-decoration: none;
+}
+
+.content .right-content form #btnRegister{
+  height: 38px;
+  width: 194px;
+
+  background-color: rgb(96, 158, 77);
+  border: 1px solid;
+  border-radius: 5px;
+  border-top-color: rgb(95, 149, 76);
+  border-left-color: rgb(144, 184, 138);
+  border-right-color: rgb(80, 138, 58);
+  border-bottom-color: rgb(154, 171, 157);
+
+  font-size: 19px;
+  color: rgb(255,255,255);
+  cursor: pointer;
+}
+
+.content .right-content form #btnRegister:hover{
+  background-color: rgba(96, 158, 77, 0.8);
+}
+
+.content .right-content #businessRegister {
+  color: rgb(112, 113, 114);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.content .right-content #businessRegister a {  
+  text-decoration: none;
+  color: rgb(86, 112, 166);
+  font-weight: bold;
 }
