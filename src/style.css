@@ -256,6 +256,7 @@ header .login #forgotPassword:hover {
 
 .map-site .language-active{
   color: rgb(112, 113, 114);
+  cursor: default;
 }
 
 .map-site ul {
@@ -295,6 +296,11 @@ header .login #forgotPassword:hover {
   justify-items: center;
   
   
+}
+
+.map-site p {
+  margin-top: 25px;
+  color: rgb(112, 113, 114);
 }
 
 footer{
