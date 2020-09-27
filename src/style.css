@@ -251,6 +251,11 @@ header .login #forgotPassword:hover {
 
 .map-site a {
   text-decoration: none;
+  color: rgb(67, 96, 156);
+}
+
+.map-site .language-active{
+  color: rgb(112, 113, 114);
 }
 
 .map-site ul {
@@ -275,6 +280,8 @@ header .login #forgotPassword:hover {
 .map-site .languages{
   display: flex;
   justify-items: center;  
+
+  margin-top: 5px;
 }
 
 .map-site hr {
