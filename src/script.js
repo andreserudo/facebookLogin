@@ -26,6 +26,11 @@ function loadBirthDate(){
     let newDay = document.createElement('option');
 
     newDay.innerText = String(i+1);
+    
+    if(day == (i+1)){
+      newDay.selected = true;
+    }
+
     selectDayBirth.append(newDay);
   }
 
@@ -34,6 +39,10 @@ function loadBirthDate(){
 
     newMonth.innerText = months[i];
 
+    if(month === i){
+      newMonth.selected = true;
+    }
+
     selectMonthBirth.append(newMonth);
   }  
 
@@ -41,6 +50,11 @@ function loadBirthDate(){
     let newYear = document.createElement('option');
 
     newYear.innerText = String(i);
+
+    if(year === i){
+      newYear.selected = true;
+    }
+
     selectYearBirth.append(newYear);
   }
   
