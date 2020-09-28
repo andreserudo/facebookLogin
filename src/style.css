@@ -266,7 +266,8 @@ header .login-container .login #forgotPassword:hover {
 
 }
 
-.map-site a {
+.map-site a,
+.map-site a .language{
   text-decoration: none;
   color: rgb(67, 96, 156);
 }

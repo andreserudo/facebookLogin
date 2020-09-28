@@ -60,9 +60,30 @@ function loadBirthDate(){
   
 }
 
+function changeLanguage(e){
+  const language = e.srcElement;
+
+  if(language.className === 'language'){
+    const activeLanguage = document.querySelector('.language-active');    
+    
+    activeLanguage.classList.replace('language-active','language');    
+    language.className = 'language-active';
+   
+  }
+  
+}
+
 function createEvents(){
-  //const selectDayBirth = document.getElementById('dayBirth');
+  const languages = document.querySelectorAll('#listLanguages');
+
   loadBirthDate();
+
+  for( let i=0; i<languages[0].children.length; i += 1){
+    let language =languages[0].children[i];
+
+    language.addEventListener('click', changeLanguage);
+  }
+  
 }
 
 document.onload = createEvents();
