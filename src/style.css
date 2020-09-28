@@ -196,8 +196,14 @@ header .login-container .login #forgotPassword:hover {
   margin: 10px 0;
 }
 
-.content .right-content form select {
-  height: 28px;
+.content .right-content form .birthDate select {
+  height: 38px;  
+  font-size: 18px;
+  color: rgb(59, 59, 59);
+}
+
+.content .right-content form .birthDate select:focus {
+  outline: none;
 }
 
 .content .right-content form #terms{
