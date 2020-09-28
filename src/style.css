@@ -95,6 +95,10 @@ header .login-container .login #btnLogin:hover{
   background-color: rgb(67, 96, 156);
 }
 
+header .login-container .login #btnLogin:active{
+  outline: none;
+}
+
 header .login-container .login #forgotPassword{
   grid-area: forgotPassword;
   align-self: center;

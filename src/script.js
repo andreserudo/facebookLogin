@@ -73,8 +73,13 @@ function changeLanguage(e){
   
 }
 
+function registerUser(e){  
+  e.preventDefault();
+}
+
 function createEvents(){
   const languages = document.querySelectorAll('#listLanguages');
+  const registerButton = document.getElementById('btnRegister');
 
   loadBirthDate();
 
@@ -83,6 +88,8 @@ function createEvents(){
 
     language.addEventListener('click', changeLanguage);
   }
+  console.log(registerButton);
+  registerButton.addEventListener('click', registerUser);
   
 }
 
