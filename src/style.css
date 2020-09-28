@@ -95,6 +95,10 @@ header .login-container .login #btnLogin:hover{
   background-color: rgb(67, 96, 156);
 }
 
+header .login-container .login #btnLogin:active{
+  outline: none;
+}
+
 header .login-container .login #forgotPassword{
   grid-area: forgotPassword;
   align-self: center;
@@ -196,8 +200,16 @@ header .login-container .login #forgotPassword:hover {
   margin: 10px 0;
 }
 
-.content .right-content form select {
-  height: 28px;
+.content .right-content form .birthDate select {
+  height: 38px;  
+  font-size: 18px;
+  color: rgb(59, 59, 59);
+
+  cursor: pointer;
+}
+
+.content .right-content form .birthDate select:focus {
+  outline: none;
 }
 
 .content .right-content form #terms{
@@ -258,7 +270,8 @@ header .login-container .login #forgotPassword:hover {
 
 }
 
-.map-site a {
+.map-site a,
+.map-site a .language{
   text-decoration: none;
   color: rgb(67, 96, 156);
 }
@@ -316,4 +329,8 @@ footer{
   text-align: center;
 
   margin-top: 50px;
+}
+
+footer a{
+  text-decoration: none;
 }
