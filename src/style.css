@@ -200,6 +200,8 @@ header .login-container .login #forgotPassword:hover {
   height: 38px;  
   font-size: 18px;
   color: rgb(59, 59, 59);
+
+  cursor: pointer;
 }
 
 .content .right-content form .birthDate select:focus {
@@ -322,4 +324,8 @@ footer{
   text-align: center;
 
   margin-top: 50px;
+}
+
+footer a{
+  text-decoration: none;
 }
