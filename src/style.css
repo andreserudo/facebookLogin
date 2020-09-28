@@ -13,13 +13,22 @@ header{
   height: 85px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   background-color: rgb(67, 96, 156);
   color: rgb(255,255,255);
 }
 
-header .login{
+header .logo-container {
+  display: flex;
+  width: 700px;  
+}
+
+header .logo-container img{
+  margin-left: 80px;
+}
+
+header .login-container .login{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -30,43 +39,43 @@ header .login{
   column-gap: 15px;
 }
 
-header .login label {
+header .login-container .login label {
   font-weight: bold;
 }
 
-header .login input{
+header .login-container .login input{
   width: 147px;
   height: 23px;
 
   padding-left: 2px;
 }
 
-header .login #labelName{
+header .login-container .login #labelName{
   grid-area: labelName;
   align-self: center;
 }
 
-header .login #labelPassword{
+header .login-container .login #labelPassword{
   grid-area: labelPassword;
   align-self: center;
 }
 
-header .login #loginName{
+header .login-container .login #loginName{
   grid-area: loginName;
   align-self: center;
 }
 
-header .login #loginPassword{
+header .login-container .login #loginPassword{
   grid-area: loginPassword;
   align-self: center;
 }
 
-header .login #loginName:focus,
-header .login #loginPassword:focus{
+header .login-container .login #loginName:focus,
+header .login-container .login #loginPassword:focus{
   outline: none;
 }
 
-header .login #btnLogin{
+header .login-container .login #btnLogin{
   grid-area: btnLogin;
 
   width: 48px;
@@ -82,11 +91,11 @@ header .login #btnLogin{
   cursor: pointer;
 }
 
-header .login #btnLogin:hover{
+header .login-container .login #btnLogin:hover{
   background-color: rgb(67, 96, 156);
 }
 
-header .login #forgotPassword{
+header .login-container .login #forgotPassword{
   grid-area: forgotPassword;
   align-self: center;
 
@@ -95,7 +104,7 @@ header .login #forgotPassword{
   color: rgb(127, 153, 196);
 }
 
-header .login #forgotPassword:hover {
+header .login-container .login #forgotPassword:hover {
   text-decoration: underline;
 }
 
