@@ -371,3 +371,33 @@ footer a{
     width: 400px;
   }  
 }
+
+@media screen and (max-width: 440px){
+
+  .map-site{
+    align-items: center;
+  }
+
+  .map-site .languages{
+    margin-top: 20px;
+  }
+
+  .map-site .languages #listLanguages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+  }
+
+  .map-site ul li:first-child{  
+    margin-right: 0;
+  }
+
+  .map-site hr {
+    display: none;
+  }
+
+  .map-site .map {
+    display: none;    
+  }
+}
