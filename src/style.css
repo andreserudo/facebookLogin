@@ -259,6 +259,10 @@ header .login-container .login #forgotPassword:hover {
   font-weight: bold;
 }
 
+.content .mobile-content{
+  display: none;
+}
+
 .map-site{
   width: 1000px;
   display: flex;
@@ -373,6 +377,22 @@ footer a{
 }
 
 @media screen and (max-width: 440px){
+
+  header .logo-container{
+    display: flex;
+  }
+
+  header .login-container{
+    display: none;
+  }
+
+  .content .right-content{
+    display: none;
+  }
+
+  .content .mobile-content{
+    display: flex;
+  }
 
   .map-site{
     align-items: center;
