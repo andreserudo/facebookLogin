@@ -334,3 +334,40 @@ footer{
 footer a{
   text-decoration: none;
 }
+
+@media screen and (max-width: 1050px){
+  header .logo-container{
+    width: 500px;
+  }
+
+  .left-content{
+    display: none;
+  }
+  .map-site{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  header .logo-container{
+    width: 300px;
+  }
+
+  .map-site{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 580px){
+  header .logo-container{
+    display: none;
+  }
+
+  header .login-container{
+    padding: 4.5rem;
+  }
+
+  .map-site{
+    width: 400px;
+  }  
+}
