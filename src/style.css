@@ -259,6 +259,10 @@ header .login-container .login #forgotPassword:hover {
   font-weight: bold;
 }
 
+.content .mobile-content{
+  display: none;
+}
+
 .map-site{
   width: 1000px;
   display: flex;
@@ -333,4 +337,179 @@ footer{
 
 footer a{
   text-decoration: none;
+}
+
+@media screen and (max-width: 1050px){
+  header .logo-container{
+    width: 500px;
+  }
+
+  .left-content{
+    display: none;
+  }
+  .map-site{
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  header .logo-container{
+    width: 300px;
+  }
+
+  .map-site{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 580px){
+  header .logo-container{
+    display: none;
+  }
+
+  header .login-container{
+    padding: 4.5rem;
+  }
+
+  .map-site{
+    width: 400px;
+  }  
+}
+
+@media screen and (max-width: 440px){
+
+  header .logo-container{
+    display: flex;
+  }
+
+  header .login-container{
+    display: none;
+  }
+
+  .content .right-content{
+    display: none;
+  }
+
+  .content .mobile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .content .mobile-content form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    padding-bottom: 1rem;
+  }
+
+  .content .mobile-content form a{  
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(24, 119, 242);
+    text-align: center;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 5px;    
+  }
+
+  .content .mobile-content form input{  
+    height: 38px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 223, 233);
+    background-color: rgb(245, 246, 247);
+
+    padding-left: 4px;
+  }
+
+  .content .mobile-content form input:focus{    
+    outline: none;
+  }
+
+  .content .mobile-content .separator{
+    display: flex;
+    justify-items: center;    
+
+    width: 100%;
+
+    margin-bottom: 1rem;
+  }
+
+  .content .mobile-content .separator hr{
+    margin: auto;
+    width: 100%;
+  }
+
+  .content .mobile-content .separator span{
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+
+  .content .mobile-content .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .content .mobile-content .links #register{
+    background-color: rgb(0, 164, 1);
+    padding: .5rem;
+    color: white;
+    font-weight: bolder;
+    border-radius: 2px;
+    margin-bottom: 1rem;    
+  }
+
+  .content .mobile-content .links #recover{
+    color: rgb(139, 167, 209);
+    font-weight: bold;
+  }  
+
+  .content .mobile-content .links a{
+    text-decoration: none;
+  }
+
+  .map-site{
+    align-items: center;
+    width: 100%;
+  }
+
+  .map-site .languages{
+    margin-top: 20px;
+  }
+
+  .map-site .languages #listLanguages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+  }
+
+  .map-site ul li:first-child{  
+    margin-right: 0;
+  }
+
+  .map-site hr {
+    display: none;
+  }
+
+  .map-site .map {
+    display: none;    
+  }
+
+  footer{
+    margin-top: 10px;
+  }
 }
