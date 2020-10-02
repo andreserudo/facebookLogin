@@ -436,12 +436,26 @@ footer a{
   .content .mobile-content form input:focus{    
     outline: none;
   }
+
   .content .mobile-content .separator{
     display: flex;
-    justify-items: center;
+    justify-items: center;    
+
+    width: 100%;
 
     margin-bottom: 1rem;
   }
+
+  .content .mobile-content .separator hr{
+    margin: auto;
+    width: 100%;
+  }
+
+  .content .mobile-content .separator span{
+    padding-left: .8rem;
+    padding-right: .8rem;
+  }
+
   .content .mobile-content .links{
     display: flex;
     flex-direction: column;
